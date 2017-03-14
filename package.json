@@ -1,0 +1,23 @@
+{
+  "name": "test_tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrTheFirst/test_tasks.git"
+  },
+  "author": "Emelyanov  Danil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrTheFirst/test_tasks/issues"
+  },
+  "homepage": "https://github.com/MrTheFirst/test_tasks#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "postcss": "^5.2.16"
+  }
+}
