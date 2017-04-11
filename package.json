@@ -2,9 +2,9 @@
   "name": "test_tasks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp build"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   "homepage": "https://github.com/MrTheFirst/test_tasks#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "postcss": "^5.2.16"
+    "postcss": "^5.2.16",
+    "autoprefixer": "^6.7.7",
+    "gulp-postcss": "^6.3.0",
+    "postcss-sorting": "^2.0.1",
+    "gulp-rigger": "^0.5.8"
   }
 }
