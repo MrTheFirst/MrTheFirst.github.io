@@ -20,7 +20,7 @@
 <div class="main">
     <section>
         <div class="container">
-            <form action="" id="schedule" class="schedule-form">
+            <form action="" id="schedule-filter" class="schedule-filter">
                 <select name="schools" id="#filter-schools">
                     <option value="all" selected>ВСЕ ШКОЛЫ</option>
                     <option value="design">Школа мобильного дизайна</option>
@@ -36,6 +36,41 @@
                     <option value="lec-3">Лектор 3</option>
                 </select>
             </form>
+
+            <div id="schedule-list" class="schedule-grid">
+                <div class="grid-titles">
+                    <div>дата/школа</div>
+                    <div>место</div>
+                    <div>лекция/лектор</div>
+                </div>
+                <div class="list-content">
+                    <div class="lecture">
+                        <div>
+                            <div class="lecture-date">6 июля 14:00</div>
+                            <ul class="lecture-schools">
+                                <li>Школа дизайна</li>
+                                <li>Школа разработки</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="lecture-office">
+
+                            </div>
+                            <a class="lecture-address">
+                                ул. Пушкина, д. 451
+                            </a>
+                        </div>
+
+                        <div>
+                            <div class="lecture-name">
+                                Название лекции,возможно очень большое. Очень.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 </div>
