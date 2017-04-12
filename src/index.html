@@ -17,64 +17,62 @@
 <header>
     Расписание лекций
 </header>
-<div class="main">
-    <section>
-        <div class="container">
-            <form action="" id="schedule-filter" class="schedule-filter">
-                <select name="schools" id="#filter-schools">
-                    <option value="all" selected>ВСЕ ШКОЛЫ</option>
-                    <option value="design">Школа мобильного дизайна</option>
-                    <option value="interface">Школа мобильного дизайна</option>
-                    <option value="management">Школа мобильного дизайна</option>
-                    <option value="dev">Школа мобильного дизайна</option>
-                </select>
-                <input id="filter-date" type="date" value="" placeholder="Все дни">
-                <select name="schools" id="#filter-lecturers">
-                    <option value="all" selected>ВСЕ ЛЕКТОРЫ</option>
-                    <option value="lec-1">Лектор 1</option>
-                    <option value="lec-2">Лектор 2</option>
-                    <option value="lec-3">Лектор 3</option>
-                </select>
-            </form>
+<section>
+    <div class="container">
+        <form action="" id="schedule-filter" class="schedule-filter">
+            <select name="schools" id="#filter-schools">
+                <option value="all" selected>ВСЕ ШКОЛЫ</option>
+                <option value="design">Школа мобильного дизайна</option>
+                <option value="interface">Школа мобильного дизайна</option>
+                <option value="management">Школа мобильного дизайна</option>
+                <option value="dev">Школа мобильного дизайна</option>
+            </select>
+            <input id="filter-date" type="date" value="" placeholder="Все дни">
+            <select name="schools" id="#filter-lecturers">
+                <option value="all" selected>ВСЕ ЛЕКТОРЫ</option>
+                <option value="lec-1">Лектор 1</option>
+                <option value="lec-2">Лектор 2</option>
+                <option value="lec-3">Лектор 3</option>
+            </select>
+        </form>
 
-            <div id="schedule-list" class="schedule-grid">
-                <div class="grid-titles">
-                    <div>дата/школа</div>
-                    <div>место</div>
-                    <div>лекция/лектор</div>
-                </div>
-                <div class="list-content">
-                    <div class="lecture">
-                        <div>
-                            <div class="lecture-date">6 июля 14:00</div>
-                            <ul class="lecture-schools">
-                                <li>Школа дизайна</li>
-                                <li>Школа разработки</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <div class="lecture-room">
-                                АУД. 0421
-                            </div>
-                            <a class="lecture-address">
-                                ул. Пушкина, д. 451
-                            </a>
-                        </div>
-
-                        <div>
-                            <div class="lecture-name">
-                                Название лекции,возможно очень большое. Очень.
-                            </div>
-                            <a href="#" class="lecturer-name">Иванов Алексей Петрович</a>
-                        </div>
+        <div id="schedule-list" class="schedule-grid">
+            <div class="grid-titles">
+                <div>дата/школа</div>
+                <div>место</div>
+                <div>лекция/лектор</div>
+            </div>
+            <div class="list-content">
+                <div class="lecture">
+                    <div>
+                        <div class="lecture-date">6 июля 14:00</div>
+                        <ul class="lecture-schools">
+                            <li>Школа дизайна</li>
+                            <li>Школа разработки</li>
+                        </ul>
                     </div>
 
+                    <div>
+                        <div class="lecture-room">
+                            АУД. 0421
+                        </div>
+                        <a class="lecture-address">
+                            ул. Пушкина, д. 451
+                        </a>
+                    </div>
+
+                    <div>
+                        <div class="lecture-name">
+                            Название лекции,возможно очень большое. Очень.
+                        </div>
+                        <a href="#" class="lecturer-name">Иванов Алексей Петрович</a>
+                    </div>
                 </div>
+
             </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
 <footer>
     футер
 </footer>
